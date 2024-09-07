@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Navbar from "../Navbar/Navbar";
-import Footer from "../footer/Footer";
-import BackgroundImage from "../../assets/images/software.jpg";
+import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/footer/Footer";
+import devops from "../../assets/Images/devops.jpg";
 import mobile1 from "../../assets/images/mobile1.jpg";
 import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 
@@ -57,12 +57,12 @@ function Contact() {
 
   return (
     <>
-      <Navbar />
+    <Navbar />
       <section className="relative bg-gray-100 py-24">
         {/* Top Section with Background Image */}
         <div className="relative w-full h-96">
           <img
-            src={BackgroundImage}
+            src={devops}
             alt="Background"
             className="object-cover w-full h-full absolute inset-0 brightness-60"
           />

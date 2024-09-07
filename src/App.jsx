@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Card2 from "./Components/Card2/Card2";
 // import Navbar from "./Components/Navbar/Navbar";
 // import Footer from "./Components/footer/Footer";
-import Contact from "./Components/Contact/Contact";
+import Contact from "./Pages/Contact/Contact";
 import Index from "./Pages/Home/Index";
 import About from "./Pages/About/About";
 import Services from "./Pages/Services/Services";
