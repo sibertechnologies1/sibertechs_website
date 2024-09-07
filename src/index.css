@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #574fc6;
+  z-index: -1;
+  overflow-x: hidden;
+}
+
+a {
+  color: white;
+}
